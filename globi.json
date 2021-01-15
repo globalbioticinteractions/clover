@@ -13,7 +13,7 @@
     "doi": "10.5281/zenodo.4435128",
     "delimiter" : ",",
     "headerRowCount" : 1,
-    "null" : [ "" ],
+    "null" : [ "", "NA" ],
     "interactionTypeName": "hostOf",
     "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002453",
     "tableSchema" : {
