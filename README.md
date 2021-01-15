@@ -33,6 +33,8 @@ A full reconciled dataset of all four databases that includes non-virus pathogen
  
 ## Everything else you might want to know
 
+This dataset is configured to be indexed by https://globalbioticinteractions.org . 
+
 ### Data usage agreement
 
 To use these data, please cite the DOI for the repository provided by Zenodo, and a manuscript citation (_forthcoming_).
@@ -40,3 +42,4 @@ To use these data, please cite the DOI for the repository provided by Zenodo, an
 ### Contact information
 
 For inquiries contact Rory Gibb or Colin Carlson.
+

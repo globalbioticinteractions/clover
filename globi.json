@@ -1,0 +1,130 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "file:///home/jorrit/proj/globi/data/clover/output/Clover_v1.0_NBCIreconciled_20201218.csv",
+    "dcterms:bibliographicCitation" : "Rory Gibb, Colin J. Carlson, & Maxwell J Farrell. (2021, January 12). viralemergence/clover: Preprint + Zenodo (Version v0.1.1). Zenodo. http://doi.org/10.5281/zenodo.4435128",
+    "doi": "10.5281/zenodo.4435128",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName": "hostOf",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002453",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "Host",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonClass",
+        "titles" : "HostClass",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrder",
+        "titles" : "HostOrder",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamily",
+        "titles" : "HostFamily",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Virus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonClass",
+        "titles" : "VirusClass",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrder",
+        "titles" : "VirusOrder",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamily",
+        "titles" : "VirusFamily",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenus",
+        "titles" : "VirusGenus",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "Year",
+        "datatype": {
+          "base": "date",
+          "format": "YYYY"
+        }
+      }, {
+        "name" : "YearType",
+        "titles" : "YearType",
+        "datatype" : "string"
+      }, {
+        "name" : "Database",
+        "titles" : "Database",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "DatabaseVersion",
+        "datatype" : "string"
+      }, {
+        "name" : "Reference",
+        "titles" : "Reference",
+        "datatype" : "string"
+      }, {
+        "name" : "ReferenceType",
+        "titles" : "ReferenceType",
+        "datatype" : "string"
+      }, {
+        "name" : "DetectionMethod",
+        "titles" : "DetectionMethod",
+        "datatype" : "string"
+      }, {
+        "name" : "Detection_NotSpecified",
+        "titles" : "Detection_NotSpecified",
+        "datatype" : "string"
+      }, {
+        "name" : "Detection_Serology",
+        "titles" : "Detection_Serology",
+        "datatype" : "string"
+      }, {
+        "name" : "Detection_Genetic",
+        "titles" : "Detection_Genetic",
+        "datatype" : "string"
+      }, {
+        "name" : "Detection_Isolation",
+        "titles" : "Detection_Isolation",
+        "datatype" : "string"
+      }, {
+        "name" : "Host_Original",
+        "titles" : "Host_Original",
+        "datatype" : "string"
+      }, {
+        "name" : "Virus_Original",
+        "titles" : "Virus_Original",
+        "datatype" : "string"
+      }, {
+        "name" : "DetectionMethod_Original",
+        "titles" : "DetectionMethod_Original",
+        "datatype" : "string"
+      }, {
+        "name" : "Host_NCBIResolved",
+        "titles" : "Host_NCBIResolved",
+        "datatype" : "string"
+      }, {
+        "name" : "Virus_NCBIResolved",
+        "titles" : "Virus_NCBIResolved",
+        "datatype" : "string"
+      }, {
+        "name" : "HostSynonyms",
+        "titles" : "HostSynonyms",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
