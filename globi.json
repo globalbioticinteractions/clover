@@ -8,7 +8,7 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "file:///home/jorrit/proj/globi/data/clover/output/Clover_v1.0_NBCIreconciled_20201218.csv",
+    "url" : "output/Clover_v1.0_NBCIreconciled_20201218.csv",
     "dcterms:bibliographicCitation" : "Rory Gibb, Colin J. Carlson, & Maxwell J Farrell. (2021, January 12). viralemergence/clover: Preprint + Zenodo (Version v0.1.1). Zenodo. http://doi.org/10.5281/zenodo.4435128",
     "doi": "10.5281/zenodo.4435128",
     "delimiter" : ",",
